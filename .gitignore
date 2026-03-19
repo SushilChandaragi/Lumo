@@ -7,7 +7,6 @@ Thumbs.db
 # Flutter generated/local
 flutter_app/.dart_tool/
 flutter_app/build/
-flutter_app/android/app/google-services.json
 flutter_app/.flutter-plugins-dependencies
 flutter_app/.pub-cache/
 flutter_app/.pub/

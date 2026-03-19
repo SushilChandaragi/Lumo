@@ -34,5 +34,5 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: assets/app_icon_leaf.png
+  image_path: assets/leaf.png
   remove_alpha_ios: true

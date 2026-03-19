@@ -21,10 +21,10 @@
 // =====================================================================
 //  CONFIGURATION  — Fill these in
 // =====================================================================
-#define WIFI_SSID     "YOUR_WIFI_SSID"       // fill in your WiFi name
-#define WIFI_PASS     "YOUR_WIFI_PASSWORD"   // fill in your WiFi password
+#define WIFI_SSID     "YOUR_WIFI_SSID"
+#define WIFI_PASS     "YOUR_WIFI_PASSWORD"
 #define API_KEY       "YOUR_FIREBASE_WEB_API_KEY"
-#define DATABASE_URL  "https://smartpotnyxora-default-rtdb.asia-southeast1.firebasedatabase.app"
+#define DATABASE_URL  "https://YOUR_PROJECT_ID-default-rtdb.YOUR_REGION.firebasedatabase.app"
 
 // =====================================================================
 //  FEATURE FLAGS

@@ -2,27 +2,37 @@
 
 Lumo is an IoT self-watering plant system with:
 - ESP32 firmware in `esp32/smartpot.ino`
-- Flutter mobile app in `flutter_app/`
-- Firebase Realtime Database for live status and control
+- Flutter app in `flutter_app/`
+- Firebase Realtime Database for status and control
 
 ## Project Structure
-- `esp32/` : firmware for moisture sensing, pump control, and Firebase sync
-- `flutter_app/` : Flutter app for monitoring and manual watering
+- `esp32/` firmware for moisture sensing, pump control, and Firebase sync
+- `flutter_app/` mobile app for monitoring and manual watering
 
 ## Quick Start
 
-### 1) ESP32 Firmware
+### ESP32
 1. Open `esp32/smartpot.ino` in Arduino IDE.
-2. Install board package: `esp32 by Espressif Systems`.
-3. Install library: `Firebase ESP Client` (by Mobizt).
-4. Update Wi-Fi and Firebase values in the config section.
-5. Upload to ESP32 and open Serial Monitor at `115200`.
+2. Install board package `esp32 by Espressif Systems`.
+3. Install library `Firebase ESP Client` by Mobizt.
+4. Fill your Wi-Fi and Firebase values in the config section.
+5. Upload and monitor logs at baud `115200`.
 
-### 2) Flutter App
+### Flutter
 1. Go to `flutter_app/`.
-2. Copy `android/app/google-services.example.json` to `android/app/google-services.json` and fill it with your Firebase project values.
-3. Run:
+2. Create `flutter_app/android/app/google-services.json` using `google-services.json.example`.
+3. Update `flutter_app/lib/firebase_options.dart` with your own Firebase values.
+4. Run:
    ```bash
    flutter pub get
    flutter run
    ```
+
+## Security
+- Rotate any key that was exposed publicly.
+- Keep `google-services.json` local only (gitignored).
+- Do not commit real API keys or credentials.
+
+## App Branding
+- Display name: `Lumo`
+- Launcher icon source: `flutter_app/assets/leaf.png`
