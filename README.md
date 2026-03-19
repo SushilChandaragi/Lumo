@@ -28,11 +28,4 @@ Lumo is an IoT self-watering plant system with:
    flutter run
    ```
 
-## Security
-- Rotate any key that was exposed publicly.
-- Keep `google-services.json` local only (gitignored).
-- Do not commit real API keys or credentials.
-
-## App Branding
-- Display name: `Lumo`
-- Launcher icon source: `flutter_app/assets/leaf.png`
+Co-authored-by: Ankit Raj <ankitrajj23@gmail.com>
