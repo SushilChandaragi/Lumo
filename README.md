@@ -26,9 +26,3 @@ Lumo is an IoT self-watering plant system with:
    flutter pub get
    flutter run
    ```
-
-## Notes
-- App display name is set to `Lumo`.
-- App icon is configured as a leaf icon source in `flutter_app/assets/app_icon_leaf.png`.
-- Build outputs and local generated files are intentionally excluded from source control.
-- `android/app/google-services.json` is intentionally not committed.
